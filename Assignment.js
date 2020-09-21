@@ -1,4 +1,4 @@
-
+// Interchange values of an initial assignment statement
 
 function test() {
     var a = "3";
