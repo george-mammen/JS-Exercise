@@ -30,6 +30,7 @@ function otherend(){
 }
 
 //Beeper on Diagonal
+
 function main(){
    beeperdiag();
    beeperdiag();
@@ -45,3 +46,42 @@ function beeperdiag(){
   turnRight();  
   
   //Beeper Chessboard
+
+function main(){
+   Outer();
+   Outer();
+   Outer();
+   Outer();
+   diagonalpos();
+   Inner();
+   Inner();
+   Inner();
+   Inner();
+   diagonalpos();
+   putBeeper();
+   }
+
+function Outer() {
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+}
+
+function Inner() {
+   move();
+   move();
+   putBeeper();
+   turnLeft();
+}
+
+function diagonalpos(){
+   turnLeft();
+   move();
+   turnRight();
+   move();
+}
+ 
