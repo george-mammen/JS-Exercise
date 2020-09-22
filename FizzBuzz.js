@@ -1,7 +1,6 @@
-var count=1;
 var n=prompt("Enter the number of terms to be generated :");
 function fizzbuzz(){
-  while(count <= n){
+  for(var count=1;count<= n;count++){
     if(count %3===0 &&count % 5===0){
       output.push("FizzBuzz");
     }
