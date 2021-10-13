@@ -8,7 +8,7 @@ if(loveScore >=70){
   alert("You love each other like Romeo and Juliet");
 }
 else if(loveScore >=30 && loveScore<70){
-  alert("You love needs to improve");
+  alert("You'll end up like george");
 }
 else{
   alert("You love each other ?");
